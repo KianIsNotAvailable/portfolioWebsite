@@ -11,6 +11,8 @@ import Nodejs from './assets/nodejs.png';
 import ReactIcon from './assets/react.png';
 import VScode from './assets/visual-studio-code.png';
 import Tailwind from './assets/Tailwind CSS.png'
+import Skills from './components/skillList';
+
 
 
 function App() {
@@ -25,54 +27,16 @@ function App() {
         <section className='skills h-screen'>
         <h1 className='font-bold text-3xl my-10'>Skills</h1>
           <div className='icons flex flex-row justify-center my-44'>
-          <div className='flex flex-col'>
-            <img src={HTML}/>
-          <h1>HTML5</h1>
-          </div>
-          <div className='flex flex-col'>
-          <img src={CSS}/>
-          <h1>CSS3</h1>
-          </div>
-          <div className='flex flex-col'>
-          <img src={Javascript}/>
-          <h1>JavaScript</h1>
-          </div>
-          <div className='flex flex-col'>
-          <img src={ReactIcon}/>
-          <h1>ReactJS</h1>
-          </div>
-          <div className='flex flex-col'>
-          <img src={Tailwind}/>
-          <h1>Tailwind CSS</h1>
-          </div>
-          <div className='flex flex-col'>
-          <img src={mySQL}/>
-          <h1>MySQL</h1>
-          </div>
-          <div className='flex flex-col'>
-          <img src={Nodejs}/>
-          <h1>NodeJs</h1>
-          </div>
-          <div className='flex flex-col'>
-          <img src={Git}/>
-          <h1>Git</h1>
-          </div>
-          <div className='flex flex-col'>  
-          <img src={Github}/>
-          <h1>Github</h1>
-          </div>  
-          <div className='flex flex-col'>
-          <img src={VScode}/>
-          <h1>Visual Studio Code</h1>
-          </div>
+            <Skills/>
           </div>
         </section>
         <section className='skills h-screen'>
           <h1>Projects</h1>
-
-          <h2>Calorie Calculator & Workout builder</h2>
+        <div className='flex flex-row '>
+          <h2 className=''>Calorie Calculator & Workout builder</h2>
           <h2>Twitch Chat Bot</h2>
           <h2>Pizza Planet Ecommerce Website</h2>
+        </div>
         </section>
     </div>
   );
