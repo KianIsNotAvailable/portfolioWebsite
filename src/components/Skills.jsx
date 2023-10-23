@@ -9,7 +9,7 @@ export default function Skills(props) {
     <div>
         <div className='flex flex-col'>
             <img src={image}/>
-          <h1>{skill}</h1>
+          <h1 className='font-bold'>{skill}</h1>
           </div>
     </div>
   )
