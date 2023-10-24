@@ -2,6 +2,8 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import Skills from './components/skillList';
+import Projects from './components/Projects';
+
 
 
 
@@ -22,11 +24,10 @@ function App() {
           </div>
         </section>
         <section className='Projects h-screen'>
-          <h1 className='font-bold text-3xl'>Projects</h1>
-        <div className='flex flex-row justify-center p-10 space-x-40'>
-          <h2 className=''>Calorie Calculator & Workout builder</h2>
-          <h2>Twitch Chat Bot</h2>
-          <h2>Pizza Planet Ecommerce Website</h2>
+          <h1 className='font-bold text-3xl p-40' >Projects</h1>
+        <div className=' flex flex-row items-center justify-center'>
+         <Projects/>
+          
         </div>
         </section>
     </div>
