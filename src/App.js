@@ -24,8 +24,8 @@ function App() {
           </div>
         </section>
         <section className='Projects h-screen'>
-          <h1 className='font-bold text-3xl p-40' >Projects</h1>
-        <div className=' flex flex-row items-center justify-center'>
+          <h1 className='font-bold text-3xl ' >Projects</h1>
+        <div className=' p-40'>
          <Projects/>
           
         </div>

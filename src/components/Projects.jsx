@@ -1,26 +1,62 @@
 import React from 'react'
-
+import image from '../assets/image-4.jpg'
 export default function Projects() {
   return (
-    <div className='flex flex-row  max-w-3xl space-x-28   '>
-        <div className='project1 shadow-xl rounded-md w-96'>
-        <img></img>
-        <h1>Twitch Chat Bot</h1>
-        <p className='text-left '>An interactive twitch chat bot built with nodeJS and mySQL.</p>
-        <button></button>
-        </div>
-        <div className='project2 shadow-xl rounded-md w-96'>
-        <img></img>
-        <h1>CalorieCalculator & WorkoutGenerator</h1>
-        <p className='text-left'>A calorie Calculator and Workout Generator that was built with HTML5, CSS3, Javascript and mySQL</p>
-        <button></button>
-        </div>
-        <div className='project3 shadow-xl rounded-md  w-96'>
-        <img></img>
-        <h1>Pizza Planet Ecommerce</h1>
-        <p className='text-left'>A Pizza Planet themed Ecommerce Website built with ReactJS for the front end and NodeJS to integrate the Stripe API</p>
-        <button></button>
-        </div>
+    <div className='flex   space-x-10  items-stretch   justify-center'>
+       
+<div class="flex flex-col flex-wrap w-96 rounded-lg  shadow bg-black dark:border-gray-700">
+    <a href="#">
+        <img class="rounded-t-lg" src={image} alt="" />
+    </a>
+    <div class="p-5">
+        <a href="#">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Twitch Chat Bot</h5>
+        </a>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">An interactive twitch chat bot built with nodeJS and mySQL.</p>
+        <a href="#" class=" mt-auto inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            View on GitHub
+             <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+            </svg>
+        </a>
+    </div>
+</div>
+<div class=" w-96 rounded-lg shadow bg-black dark:border-gray-700">
+    <a href="#">
+        <img class="rounded-t-lg" src={image} alt="" />
+    </a>
+    <div class="p-5">
+        <a href="#">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Pizza Planet Ecommerce</h5>
+        </a>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">A Pizza Planet themed Ecommerce Website built with ReactJS for the front end and NodeJS to integrate the Stripe API</p>
+        <a href="#" class="mt-auto inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            View on GitHub
+             <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+            </svg>
+        </a>
+    </div>
+</div>
+<div class="w-96 flex-shrink  rounded-lg shadow bg-black dark:border-gray-700">
+    <a href="#">
+        <img class="rounded-t-lg" src={image} alt="" />
+    </a>
+    <div class="p-5">
+        <a href="#">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">CalorieCalculator & WorkoutGenerator</h5>
+        </a>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">A calorie Calculator and Workout Generator that was built with HTML5, CSS3, Javascript and mySQL</p>
+        <a href="#" class=" inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            View on GitHub
+             <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+            </svg>
+        </a>
+    </div>
+</div>
+        
+        
     </div>
   )
 }
