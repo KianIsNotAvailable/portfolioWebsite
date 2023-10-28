@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.fae110f7.css",
+    "main.js": "/portfolio/static/js/main.0212424c.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/delivery.png": "/portfolio/static/media/delivery.b7f15ff4a36905c97bbe.png",
+    "static/media/image-4.jpg": "/portfolio/static/media/image-4.473266ae6bbca8128cc2.jpg",
+    "static/media/chatbot.png": "/portfolio/static/media/chatbot.35f6ca74670714480f80.png",
+    "static/media/CV.pdf": "/portfolio/static/media/CV.39fdf1225fc3916bae1d.pdf",
+    "static/media/caloriecalculator.png": "/portfolio/static/media/caloriecalculator.20523355a447ae6d22dd.png",
+    "index.html": "/portfolio/index.html",
+    "main.fae110f7.css.map": "/portfolio/static/css/main.fae110f7.css.map",
+    "main.0212424c.js.map": "/portfolio/static/js/main.0212424c.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fae110f7.css",
+    "static/js/main.0212424c.js"
+  ]
+}
