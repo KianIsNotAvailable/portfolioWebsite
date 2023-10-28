@@ -25,11 +25,11 @@ export default function Projects() {
     </div>
 </div>
 <div class=" w-96 rounded-lg shadow bg-black dark:border-gray-700">
-    <a href="#">
+    <a href="https://kianisnotavailable.github.io/pizza-Planet" target='_blank'>
         <img class="rounded-t-lg" src={pizza} alt="" />
     </a>
     <div class="p-5">
-        <a href="#">
+        <a href="https://kianisnotavailable.github.io/pizza-Planet" target='_blank'>
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Pizza Planet Ecommerce</h5>
         </a>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">A Pizza Planet themed Ecommerce Website built with ReactJS for the front end and NodeJS to integrate the Stripe API</p>
