@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import {BrowserRouter} from "react-router-dom";
 import { Link } from 'react-scroll';
-import Document from '../CV.pdf';
+import Document from '../MY CV.pdf';
 export default function Navbar() {
   const [clicked, setClick] = useState(false);
   const handleClick = () => setClick(!clicked);
