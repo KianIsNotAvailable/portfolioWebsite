@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/portfolioWebsite/static/css/main.fae110f7.css",
+    "main.js": "/portfolioWebsite/static/js/main.a26e993a.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolioWebsite/static/js/787.1ed0c42c.chunk.js",
+    "static/media/delivery.png": "/portfolioWebsite/static/media/delivery.b7f15ff4a36905c97bbe.png",
+    "static/media/image-4.jpg": "/portfolioWebsite/static/media/image-4.473266ae6bbca8128cc2.jpg",
+    "static/media/chatbot.png": "/portfolioWebsite/static/media/chatbot.35f6ca74670714480f80.png",
+    "static/media/CV.pdf": "/portfolioWebsite/static/media/CV.39fdf1225fc3916bae1d.pdf",
+    "static/media/caloriecalculator.png": "/portfolioWebsite/static/media/caloriecalculator.20523355a447ae6d22dd.png",
+    "index.html": "/portfolioWebsite/index.html",
+    "main.fae110f7.css.map": "/portfolioWebsite/static/css/main.fae110f7.css.map",
+    "main.a26e993a.js.map": "/portfolioWebsite/static/js/main.a26e993a.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolioWebsite/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fae110f7.css",
+    "static/js/main.a26e993a.js"
+  ]
+}
